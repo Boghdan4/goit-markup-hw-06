@@ -11,7 +11,7 @@ img{
   
     padding-left: 16px;
     padding-right: 16px;
-    max-width: 375px;
+    max-width: 428px;
     
     margin-left: auto;
     margin-right: auto;
@@ -305,9 +305,9 @@ font-style: normal;
     }
 .section{
     background-color: #2E2F42;
-    padding-top: 188px;
-    padding-bottom: 188px;
-    height: 600px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    /* height: 600px; */
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
      url(../images/Dark-bgmob@1x.jpg);
     background-repeat: no-repeat;
@@ -331,7 +331,7 @@ font-style: normal;
     url(../images/Dark-bg_tab@2x.jpg)
 }
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
     .section  {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/people-office1.jpg);
@@ -340,6 +340,12 @@ font-style: normal;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/people-office\ 1_desc@2x.jpg)
 }
+}
+@media only screen and (min-width: 1200px) {
+  .section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
 }
 .title{
     color:  #FFF;
@@ -620,7 +626,7 @@ text-align: center;
         background-color: #2E2F42;
         padding-top: 100px;
         padding-bottom: 100px;
-        display: flex;
+        /* display: flex; */
     }
 .logo-link-span{
     color: #F4F4FD;
@@ -765,7 +771,7 @@ appearance: none;
     fill: currentColor;
 }
 .container-top{
-    display: flex;
+    /* display: flex; */
     align-items: center;
     flex-direction: column;
     gap: 72px;
@@ -848,9 +854,9 @@ margin-bottom: 16px;
     }
    
     .subscribe-container {
-        display: flex;
+        /* display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center; */
         /* margin-left: auto; */
     }
     @media only screen and (min-width: 768px) {
@@ -884,10 +890,10 @@ margin-bottom: 16px;
         letter-spacing: 0.32px;
     }
     .subscribe-form {
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 24px;
+        gap: 24px; */
     }
     @media only screen and (min-width: 768px) {
         .subscribe-form {
