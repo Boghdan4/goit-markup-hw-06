@@ -492,6 +492,7 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 .text{
+    text-align: center;
     margin-bottom: 8px;
     font-weight: 500;
 }
@@ -883,6 +884,7 @@ margin-bottom: 16px;
             display: flex;
             align-items: baseline;
             padding-left: 15px;
+            gap: 0;
         }
     }
 
@@ -904,11 +906,22 @@ margin-bottom: 16px;
     }
     @media only screen and (min-width: 768px) {
         .subscribe-form {
+
             display: flex;
-            align-items: center;
+            align-items:flex-start;
             gap: 24px;
             flex-direction: row;
         }
+    }
+    @media only screen and (min-width: 768px) {
+     .subscribe-text  { text-align: left;
+        
+      }
+    }
+        @media only screen and (min-width: 1200px) {
+     .subscribe-text  {margin-left: 80px;;
+        
+      }
     }
     .subscribe-icon{
         margin-left: 16px;
@@ -929,7 +942,12 @@ margin-bottom: 16px;
         color: #ffffff;
     }
 @media only screen and (min-width: 768px) {
-  .subscribe-input {max-width: 268px;
+  .subscribe-input {width: 264px;
+    
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .subscribe-input { margin-left: 78px;
     
   }
 }
